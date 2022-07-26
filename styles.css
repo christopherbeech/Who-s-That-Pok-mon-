@@ -4,6 +4,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    list-style: none;
     font-family: 'Open Sans';
     user-select: none;
 
@@ -21,6 +22,18 @@ body{
 h1{
     color: #fff;
     font-size: 4rem;
+    margin: 0 auto;
+    text-align: center;
+    /* border: 1px solid red; */
+}
+
+.wrapper{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
 }
 
 .btn-container{
@@ -88,20 +101,20 @@ h1{
     height: 200px;
 }
 
-table{
+ul{
     display: flex;
     justify-content: center;
     align-items: center;
     width: 800px;
 }
 
-td{
+li{
     padding: 35px;
     /* border: 1px solid orange; */
 }
 
 .wartortle{
-    width: 400px;
+    width: 500px;
     background-color: #fff;
     padding: 20px;
     border-radius: 10px;
@@ -124,7 +137,7 @@ td{
 }
 
 .cloyster{
-    width: 400px;
+    width: 500px;
     background-color: #fff;
     padding: 20px;
     border-radius: 10px;
@@ -147,7 +160,7 @@ td{
 }
 
 .gyarados{
-    width: 400px;
+    width: 500px;
     background-color: #fff;
     padding: 20px;
     border-radius: 10px;
