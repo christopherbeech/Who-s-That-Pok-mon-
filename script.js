@@ -25,8 +25,14 @@ btn.addEventListener('click', (e) => {
 
     //change img back to default 
     wartortle.src = './images/154-1542005_wartortle-pokemon-character-vector-art-pokemon-wartortle - Copy.png'
+    wartortle.style.border = '2px solid #60a5fa';
+
     cloyster.src = './images/PqaIWGIVE0QUivxgddPT0rW7DcVr5QviwVD-CltqhDI (1).jpg'
+    cloyster.style.border = '2px solid #60a5fa';
+
     gyarados.src = './images/gyarados.jpg'
+    gyarados.style.border = '2px solid #60a5fa';
+
   }
 
 })
@@ -37,13 +43,16 @@ wartortle.addEventListener('click', () => {
   
   //selected
   document.querySelector('.wartortle').classList.toggle('active');
-
+  wartortle.style.border = '5px solid red'
   wartortle.src = './images/wartortle attack.jpg'
 
 
   //not selected
   document.querySelector('.cloyster').classList.remove('active');
+  cloyster.style.border = '2px solid #60a5fa';
+
   document.querySelector('.gyarados').classList.remove('active');
+  gyarados.style.border = '2px solid #60a5fa';
 
   //change img back to default 
   cloyster.src = './images/PqaIWGIVE0QUivxgddPT0rW7DcVr5QviwVD-CltqhDI (1).jpg'
@@ -55,14 +64,16 @@ cloyster.addEventListener('click', () => {
 
   //selected
   document.querySelector('.cloyster').classList.toggle('active');
-
+  cloyster.style.border = '5px solid red'
   cloyster.src = './images/cloyster attack.jpg'
 
 
   //not selected
   document.querySelector('.wartortle').classList.remove('active');
-  document.querySelector('.gyarados').classList.remove('active');
+  wartortle.style.border = '2px solid #60a5fa';
 
+  document.querySelector('.gyarados').classList.remove('active');
+  gyarados.style.border = '2px solid #60a5fa';
 
   //change img back to default 
   wartortle.src = './images/154-1542005_wartortle-pokemon-character-vector-art-pokemon-wartortle - Copy.png'
@@ -75,14 +86,16 @@ gyarados.addEventListener('click', () => {
 
   //selected
   document.querySelector('.gyarados').classList.toggle('active');
-
+  gyarados.style.border = '5px solid red'
   gyarados.src = './images/gyarados attack.png'
 
 
   //not selected
   document.querySelector('.wartortle').classList.remove('active');
-  document.querySelector('.cloyster').classList.remove('active');
+  wartortle.style.border = '2px solid #60a5fa';
 
+  document.querySelector('.cloyster').classList.remove('active');
+  cloyster.style.border = '2px solid #60a5fa';
 
   //change img back to default 
   wartortle.src = './images/154-1542005_wartortle-pokemon-character-vector-art-pokemon-wartortle - Copy.png'
